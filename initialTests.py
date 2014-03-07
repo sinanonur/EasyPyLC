@@ -1,4 +1,6 @@
-dt = PlcDataType('pair');
+import PlcStructre;
+
+dt = PlcStructre.PlcDataType('pair');
 dt.setData(
 {'a2': [False, False, True, True, True, True, True, True, True, True],
  'lc': {'alt': {'al': 1, 'ti': 2}, 'temp': {'C': 1, 'F': 3}}})
